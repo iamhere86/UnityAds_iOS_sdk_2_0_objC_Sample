@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB5504EA1DC2E38600502891 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5504E91DC2E38600502891 /* main.m */; };
+		FB5504ED1DC2E38600502891 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5504EC1DC2E38600502891 /* AppDelegate.m */; };
+		FB5504F01DC2E38600502891 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5504EF1DC2E38600502891 /* ViewController.m */; };
+		FB5504F31DC2E38600502891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5504F11DC2E38600502891 /* Main.storyboard */; };
+		FB5504F51DC2E38600502891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5504F41DC2E38600502891 /* Assets.xcassets */; };
+		FB5504F81DC2E38600502891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5504F61DC2E38600502891 /* LaunchScreen.storyboard */; };
+		FB5505031DC2E38600502891 /* UnityAds_ios_2_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5505021DC2E38600502891 /* UnityAds_ios_2_0Tests.m */; };
+		FB55050E1DC2E38600502891 /* UnityAds_ios_2_0UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB55050D1DC2E38600502891 /* UnityAds_ios_2_0UITests.m */; };
+		FB55051C1DC2E5B000502891 /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB55051B1DC2E5B000502891 /* UnityAds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB5504FF1DC2E38600502891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5504DD1DC2E38600502891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5504E41DC2E38600502891;
+			remoteInfo = UnityAds_ios_2_0;
+		};
+		FB55050A1DC2E38600502891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5504DD1DC2E38600502891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5504E41DC2E38600502891;
+			remoteInfo = UnityAds_ios_2_0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB5504E51DC2E38600502891 /* UnityAds_ios_2_0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnityAds_ios_2_0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5504E91DC2E38600502891 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB5504EB1DC2E38600502891 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB5504EC1DC2E38600502891 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB5504EE1DC2E38600502891 /* ViewController.h */ = {isa = PBXFileReference; indentWidth = 7; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; tabWidth = 7; };
+		FB5504EF1DC2E38600502891 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB5504F21DC2E38600502891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB5504F41DC2E38600502891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB5504F71DC2E38600502891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB5504F91DC2E38600502891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5504FE1DC2E38600502891 /* UnityAds_ios_2_0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnityAds_ios_2_0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5505021DC2E38600502891 /* UnityAds_ios_2_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnityAds_ios_2_0Tests.m; sourceTree = "<group>"; };
+		FB5505041DC2E38600502891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5505091DC2E38600502891 /* UnityAds_ios_2_0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnityAds_ios_2_0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB55050D1DC2E38600502891 /* UnityAds_ios_2_0UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnityAds_ios_2_0UITests.m; sourceTree = "<group>"; };
+		FB55050F1DC2E38600502891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB55051B1DC2E5B000502891 /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB5504E21DC2E38600502891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB55051C1DC2E5B000502891 /* UnityAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5504FB1DC2E38600502891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5505061DC2E38600502891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB5504DC1DC2E38600502891 = {
+			isa = PBXGroup;
+			children = (
+				FB5504E71DC2E38600502891 /* UnityAds_ios_2_0 */,
+				FB5505011DC2E38600502891 /* UnityAds_ios_2_0Tests */,
+				FB55050C1DC2E38600502891 /* UnityAds_ios_2_0UITests */,
+				FB5504E61DC2E38600502891 /* Products */,
+				FB55051B1DC2E5B000502891 /* UnityAds.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		FB5504E61DC2E38600502891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB5504E51DC2E38600502891 /* UnityAds_ios_2_0.app */,
+				FB5504FE1DC2E38600502891 /* UnityAds_ios_2_0Tests.xctest */,
+				FB5505091DC2E38600502891 /* UnityAds_ios_2_0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB5504E71DC2E38600502891 /* UnityAds_ios_2_0 */ = {
+			isa = PBXGroup;
+			children = (
+				FB5504EB1DC2E38600502891 /* AppDelegate.h */,
+				FB5504EC1DC2E38600502891 /* AppDelegate.m */,
+				FB5504EE1DC2E38600502891 /* ViewController.h */,
+				FB5504EF1DC2E38600502891 /* ViewController.m */,
+				FB5504F11DC2E38600502891 /* Main.storyboard */,
+				FB5504F41DC2E38600502891 /* Assets.xcassets */,
+				FB5504F61DC2E38600502891 /* LaunchScreen.storyboard */,
+				FB5504F91DC2E38600502891 /* Info.plist */,
+				FB5504E81DC2E38600502891 /* Supporting Files */,
+			);
+			path = UnityAds_ios_2_0;
+			sourceTree = "<group>";
+		};
+		FB5504E81DC2E38600502891 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB5504E91DC2E38600502891 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB5505011DC2E38600502891 /* UnityAds_ios_2_0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FB5505021DC2E38600502891 /* UnityAds_ios_2_0Tests.m */,
+				FB5505041DC2E38600502891 /* Info.plist */,
+			);
+			path = UnityAds_ios_2_0Tests;
+			sourceTree = "<group>";
+		};
+		FB55050C1DC2E38600502891 /* UnityAds_ios_2_0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB55050D1DC2E38600502891 /* UnityAds_ios_2_0UITests.m */,
+				FB55050F1DC2E38600502891 /* Info.plist */,
+			);
+			path = UnityAds_ios_2_0UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB5504E41DC2E38600502891 /* UnityAds_ios_2_0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5505121DC2E38600502891 /* Build configuration list for PBXNativeTarget "UnityAds_ios_2_0" */;
+			buildPhases = (
+				FB5504E11DC2E38600502891 /* Sources */,
+				FB5504E21DC2E38600502891 /* Frameworks */,
+				FB5504E31DC2E38600502891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnityAds_ios_2_0;
+			productName = UnityAds_ios_2_0;
+			productReference = FB5504E51DC2E38600502891 /* UnityAds_ios_2_0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB5504FD1DC2E38600502891 /* UnityAds_ios_2_0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5505151DC2E38600502891 /* Build configuration list for PBXNativeTarget "UnityAds_ios_2_0Tests" */;
+			buildPhases = (
+				FB5504FA1DC2E38600502891 /* Sources */,
+				FB5504FB1DC2E38600502891 /* Frameworks */,
+				FB5504FC1DC2E38600502891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5505001DC2E38600502891 /* PBXTargetDependency */,
+			);
+			name = UnityAds_ios_2_0Tests;
+			productName = UnityAds_ios_2_0Tests;
+			productReference = FB5504FE1DC2E38600502891 /* UnityAds_ios_2_0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB5505081DC2E38600502891 /* UnityAds_ios_2_0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5505181DC2E38600502891 /* Build configuration list for PBXNativeTarget "UnityAds_ios_2_0UITests" */;
+			buildPhases = (
+				FB5505051DC2E38600502891 /* Sources */,
+				FB5505061DC2E38600502891 /* Frameworks */,
+				FB5505071DC2E38600502891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB55050B1DC2E38600502891 /* PBXTargetDependency */,
+			);
+			name = UnityAds_ios_2_0UITests;
+			productName = UnityAds_ios_2_0UITests;
+			productReference = FB5505091DC2E38600502891 /* UnityAds_ios_2_0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB5504DD1DC2E38600502891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Aylin;
+				TargetAttributes = {
+					FB5504E41DC2E38600502891 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XQJU2NBLUR;
+						ProvisioningStyle = Automatic;
+					};
+					FB5504FD1DC2E38600502891 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XQJU2NBLUR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB5504E41DC2E38600502891;
+					};
+					FB5505081DC2E38600502891 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XQJU2NBLUR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB5504E41DC2E38600502891;
+					};
+				};
+			};
+			buildConfigurationList = FB5504E01DC2E38600502891 /* Build configuration list for PBXProject "UnityAds_ios_2_0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB5504DC1DC2E38600502891;
+			productRefGroup = FB5504E61DC2E38600502891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB5504E41DC2E38600502891 /* UnityAds_ios_2_0 */,
+				FB5504FD1DC2E38600502891 /* UnityAds_ios_2_0Tests */,
+				FB5505081DC2E38600502891 /* UnityAds_ios_2_0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB5504E31DC2E38600502891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5504F81DC2E38600502891 /* LaunchScreen.storyboard in Resources */,
+				FB5504F51DC2E38600502891 /* Assets.xcassets in Resources */,
+				FB5504F31DC2E38600502891 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5504FC1DC2E38600502891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5505071DC2E38600502891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB5504E11DC2E38600502891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5504F01DC2E38600502891 /* ViewController.m in Sources */,
+				FB5504ED1DC2E38600502891 /* AppDelegate.m in Sources */,
+				FB5504EA1DC2E38600502891 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5504FA1DC2E38600502891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5505031DC2E38600502891 /* UnityAds_ios_2_0Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5505051DC2E38600502891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB55050E1DC2E38600502891 /* UnityAds_ios_2_0UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB5505001DC2E38600502891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB5504E41DC2E38600502891 /* UnityAds_ios_2_0 */;
+			targetProxy = FB5504FF1DC2E38600502891 /* PBXContainerItemProxy */;
+		};
+		FB55050B1DC2E38600502891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB5504E41DC2E38600502891 /* UnityAds_ios_2_0 */;
+			targetProxy = FB55050A1DC2E38600502891 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB5504F11DC2E38600502891 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5504F21DC2E38600502891 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB5504F61DC2E38600502891 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5504F71DC2E38600502891 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB5505101DC2E38600502891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB5505111DC2E38600502891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB5505131DC2E38600502891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XQJU2NBLUR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = UnityAds_ios_2_0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "unityadskorea.UnityAds-ios-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB5505141DC2E38600502891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XQJU2NBLUR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = UnityAds_ios_2_0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "unityadskorea.UnityAds-ios-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB5505161DC2E38600502891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XQJU2NBLUR;
+				INFOPLIST_FILE = UnityAds_ios_2_0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "unityadskorea.UnityAds-ios-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnityAds_ios_2_0.app/UnityAds_ios_2_0";
+			};
+			name = Debug;
+		};
+		FB5505171DC2E38600502891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XQJU2NBLUR;
+				INFOPLIST_FILE = UnityAds_ios_2_0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "unityadskorea.UnityAds-ios-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnityAds_ios_2_0.app/UnityAds_ios_2_0";
+			};
+			name = Release;
+		};
+		FB5505191DC2E38600502891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = XQJU2NBLUR;
+				INFOPLIST_FILE = UnityAds_ios_2_0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "unityadskorea.UnityAds-ios-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UnityAds_ios_2_0;
+			};
+			name = Debug;
+		};
+		FB55051A1DC2E38600502891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = XQJU2NBLUR;
+				INFOPLIST_FILE = UnityAds_ios_2_0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "unityadskorea.UnityAds-ios-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UnityAds_ios_2_0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB5504E01DC2E38600502891 /* Build configuration list for PBXProject "UnityAds_ios_2_0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5505101DC2E38600502891 /* Debug */,
+				FB5505111DC2E38600502891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5505121DC2E38600502891 /* Build configuration list for PBXNativeTarget "UnityAds_ios_2_0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5505131DC2E38600502891 /* Debug */,
+				FB5505141DC2E38600502891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5505151DC2E38600502891 /* Build configuration list for PBXNativeTarget "UnityAds_ios_2_0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5505161DC2E38600502891 /* Debug */,
+				FB5505171DC2E38600502891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5505181DC2E38600502891 /* Build configuration list for PBXNativeTarget "UnityAds_ios_2_0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5505191DC2E38600502891 /* Debug */,
+				FB55051A1DC2E38600502891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB5504DD1DC2E38600502891 /* Project object */;
+}
